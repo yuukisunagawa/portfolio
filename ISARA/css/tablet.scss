@@ -1,0 +1,604 @@
+@media(max-width: 1190px) {
+
+  .br-md {
+    display: block;
+  }
+
+  // ヘッダー
+  header {
+    .header-left {
+      p {
+        margin-left: 5px;
+        font-size: 0.8rem;
+      }
+    }
+    .contact-link {
+      border-radius: 30px;
+      padding: 10px 45px;
+      font-size: 0.7rem;
+    }
+  }
+
+  // トップ
+  .top {
+    .top-inner {
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1.0rem;
+      }
+    }
+  }
+  // プロモーション
+  .promotion {
+    height: 460px;
+    padding: 30px 0;
+    .promotion-heading {
+      font-size: 1.0rem;
+      margin-bottom: 12px;
+    }
+    .caution {
+      width: 400px;
+      font-size: 0.9rem;
+    }
+    .contact-link-bg {
+      width: 85%;
+      background-color: #DA6B64;
+      padding: 22px 50px;
+      font-size: 1.2rem;
+      margin: 15px auto 30px;
+    }
+    .recruitment {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      &:nth-child(6) {
+        margin-bottom: 20px;
+      }
+    }
+    .social {
+      display: flex;
+      align-items: flex-start;
+      width: 200px;
+      margin: 0 auto;
+      .twitter-share-button {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  // イントロダクション
+  .introduction {
+    .inner {
+      padding: 0 20px;
+    }
+    .section-heading {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1.0rem;
+    }
+  }
+
+  // アバウト
+  .about {
+    padding: 110px 0 70px 0;
+    .inner {
+      padding: 0 20px;
+    }
+    .section-heading {
+      font-size: 1.5rem;
+      position: relative;
+    }
+    .about-text {
+      font-size: 1.1rem;
+    }
+    .skils {
+      .skil-heading {
+        font-size: 1.1rem;
+      }
+      .skil-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  // ３ステップ
+  .three-step {
+    padding: 55px 0 40px 0;
+    text-align: center;
+    h3 {
+      font-size: 1.4rem;
+    }
+    .step-text {
+      font-size: 1.0rem;
+      margin-bottom: 25px;
+    }
+    .step-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .step {
+        width: 37%;
+        background-color: white;
+        margin: 0 0 20px 0;
+        padding: 25px 5px 20px 5px;
+        .step-heading {
+          font-size: 0.9rem;
+          width: 80%;
+          margin: 0 auto 30px;
+        }
+        p {
+          font-size: 0.7rem;
+          margin: 15px 0 15px 0;
+          &:nth-child(3) {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  .step-bottom {
+    .step-bottom-text {
+      font-size: 1.0rem;
+    }
+  }
+
+  // 学べること
+  .can-learn {
+    .learn-heading {
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      span {
+        font-size: 0.8rem;
+      }
+    }
+    .learn-text {
+      font-size: 1.0rem;
+    }
+    .learn-wrapper {
+      max-width: 100%;
+      width: 850px;
+      margin: 55px auto;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .learn {
+        width: 21%;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    .learn-text-bottom {
+      font-size: 0.9rem;
+    }
+  }
+
+  // ３つのメリット
+  .three-merit {
+    background-color: #FEF5E0;
+    text-align: center;
+    padding: 70px 0 30px 0;
+    .section-heading {
+      font-size: 1.5rem;
+      position: relative;
+      p {
+        font-size: 1.0rem;
+      }
+    }
+    .merit-wrapper {
+      width: 1000px;
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      @media(max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .merit {
+        width: 300px;
+        text-align: left;
+        .merit-image {
+          height: 180px;
+        }
+        .merit-heading {
+          margin: 10px 0;
+          font-size: 1.0rem;
+          text-align: center;
+        }
+        .merit-text {
+          width: 95%;
+          margin: 0 auto;
+          font-size: 0.9rem;
+          @media(max-width: 900px) {
+            width: 85vw;
+            margin-left: -20vw;
+          }
+        }
+        &:nth-child(2) {
+          margin: 0;
+        }
+      }
+    }
+    .merit-support {
+      width: 1110px;
+      max-width: 85%;
+      margin: 40px auto;
+      padding: 40px 0;
+      border-radius: 5px;
+      h3 {
+        font-size: 1.5rem;
+        color: #EBB94D;
+      }
+      .merit-support-heading {
+        margin: 15px 0;
+        font-size: 1.0rem;
+      }
+      .merit-support-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .merit-bottom-text {
+      width: 985px;
+      max-width: 87%;
+      margin: 0 auto;
+      font-size: 0.7rem;
+    }
+  }
+
+  // 創設メンバー
+  .founding-member {
+    padding: 95px 0 50px;
+    .member-heading {
+      font-size: 1.5rem;
+    }
+    .member-text {
+      font-size: 0.9rem;
+      margin-bottom: 0px;
+    }
+    .member-wrapper {
+      padding: 0 50px;
+      align-items: flex-start;
+      @media(max-width: 990px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      .member {
+        width: 31%;
+        height: auto;
+        position: relative;
+        @media(max-width: 990px) {
+          width: 95%;
+          margin-bottom: 10px;
+          &:nth-child(3) {
+            margin-bottom: 0;
+          }
+        }
+        .intro-wrapper {
+          height: auto;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+        .member-name {
+          margin: 10px 0;
+        }
+        .member-introduction {
+          text-align: left;
+        }
+        .member-introduction-letter-half {
+          text-align: left;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  // Q&A
+  .qa-heading {
+    padding: 35px 15px 0;
+    .qa-icon {
+      font-size: 1.2rem;
+    }
+    .section-heading {
+      font-size: 1.2rem;
+    }
+  }
+
+  // QAアンサー
+  .answer {
+    padding: 40px 0 20px;
+    .answer-heading {
+      font-size: 1.4rem;
+    }
+    .answer-sub-heading {
+      font-size: 0.9rem;
+    }
+    .answer-text {
+      font-size: 0.8rem;
+    }
+    .answer-inner {
+      width: 1000px;
+      max-width: 100%;
+      margin: 0;
+      padding: 0 25px;
+    }
+    .third-party {
+      .third-party-left {
+        width: 30%;
+      }
+      .third-party-right {
+        width: 70%;
+      }
+    }
+  }
+
+  // イサラで学べる内容
+  .learning-content {
+    padding: 50px 0 70px;
+    .learning-content-heading {
+      font-size: 1.4rem;
+    }
+    .learning-content-text {
+      font-size: 0.9rem;
+    }
+    .learning-content-wrapper {
+      @media(max-width: 990px) {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+      }
+    }
+    .learning-box {
+      width: 260px;
+      @media(max-width: 990px) {
+        width: 70%;
+        margin: 0 auto;
+      }
+      ul {
+        li {
+          padding: 10px;
+          font-size: 0.9rem;
+          &:nth-child(1) {
+            font-size: 1.0rem;
+          }
+          &:last-child {
+            background-image: none;
+          }
+        }
+      }
+    }
+    .pre-learning {
+      @media(max-width: 990px) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  // サポート延長
+  .supprot-extension {
+    padding: 40px 0;
+    font-size: 1.0rem;
+  }
+
+  // 受講の流れ
+  .course-flow {
+    .course-flow-heading {
+      font-size: 1.3rem;
+    }
+    .course-flow-image {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    .course-flow-inner {
+      padding: 0 50px;
+      .course {
+        padding: 30px;
+        .course-right {
+          p {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+          .course-text-sm {
+            font-size: 0.7rem;
+          }
+        }
+      }
+      .connecter {
+        max-width: 70%;
+      }
+    }
+  }
+  // なぜバンコクなのか？
+  .why-bangkok {
+    padding: 60px 60px 50px;
+    .why-bangkok-text-sm {
+      margin: 20px 0;
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+    ul {
+      margin-bottom: 20px;
+      list-style: inside;
+      li {
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+      }
+    }
+    .why-bangkok-text-bottom {
+      font-size: 1.0rem;
+    }
+  }
+  // 受講生への参加特典
+  .benefits {
+    padding: 65px 0 30px;
+    .benefits-heading {
+      font-size: 1.5rem;
+    }
+    .benefits-text {
+      margin: 30px 0 55px;
+      font-size: 0.9rem;
+      span {
+        color: white;
+      }
+    }
+    .benefits-wrapper-heading {
+      width: 43%;
+      margin: 0 auto;
+      position: relative;
+      top: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: #F7C23B;
+    }
+    .benefits-inner {
+      padding: 0 40px;
+    }
+    .benefits-frame {
+      .benefits-wrapper-pc {
+        padding: 0 80px;
+        display: flex;
+        justify-content: space-between;
+        @media(max-width: 990px) {
+          flex-direction: column;
+          align-items: center;
+        }
+        .benefit-pc {
+          width: 250px;
+          height: 250px;
+          padding: 50px 15px 20px;
+          background-color: white;
+          border-radius: 250px;
+          @media(max-width: 990px) {
+            margin-bottom: 25px;
+          }
+          p {
+            &:nth-child(1) {
+              margin-bottom: 15px;
+              color: #F7C23B;
+              font-size: 1.3rem;
+            }
+            &:nth-child(2) {
+              color: #333333;
+              font-size: 0.9rem;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // イサラはボランティアではありません
+  .not-volunteer {
+    padding: 65px 0 60px;
+    .no-volunteer-inner {
+      padding: 0 30px;
+      .no-volunteer-heading {
+        font-size: 1.4rem;
+      }
+      .no-volunteer-text {
+        font-size: 1.0rem;
+      }
+      .section-heading {
+        font-size: 1.6rem;
+      }
+      .no-volunteer-text-bottom {
+        font-size: 1.0rem;
+      }
+    }
+  }
+
+  // 創業者からのメッセージ
+  .message {
+    padding: 70px 0;
+    .message-heading {
+      font-size: 1.5rem;
+    }
+    .message-text {
+      font-size: 1.0rem;
+      margin: 30px 0 50px;
+    }
+    .message-inner {
+      padding: 0 25px;
+    }
+    .message-wrapper {
+      @media(max-width: 990px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .message-photo {
+        @media(max-width: 990px) {
+          width: 100%;
+          height: auto;
+          margin: 0 0 35px;
+        }
+      }
+      .message-intro-wrapper {
+        font-size: 0.9rem;
+        @media(max-width: 990px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // 資料請求フォーム
+  .claim {
+    .claim-inner {
+      .claim-heading {
+        font-size: 1.5rem;
+      }
+      .claim-text {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  // FAQ
+  .faq {
+    padding: 50px 0;
+    .faq-heading {
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+    }
+    .faq-inner {
+      width: 1100px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 60px;
+    }
+    .faq-list {
+      margin-bottom: 5px;
+      .faq-question {
+        padding: 10px 20px;
+        border: 1px solid #E5E5E5;
+        .faq-list-left {
+          font-weight: bold;
+          font-size: 1.0rem;
+          i {
+            color: #076EA9;
+          }
+        }
+        .faq-list-right {
+          font-size: 1.6rem;
+        }
+      }
+      .faq-answer {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
