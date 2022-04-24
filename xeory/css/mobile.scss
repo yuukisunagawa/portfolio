@@ -1,0 +1,150 @@
+@media(max-width: 768px) {
+  // ヘッダー
+  header {
+    .ham-menu {
+      position: absolute;
+      top: 90px;
+      width: 95%;
+      height: 35px;
+      background-color: #3B4652;
+      a {
+        display: block;
+        line-height: 35px;
+        i {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+  // モバイルメニュー //
+  .mobile-menu {
+    top: 125px;
+    height: 200px;
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 4%;
+      li {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  // ニュース
+  .news {
+    .news-wrapper {
+      width: 97%;
+      flex-direction: column;
+      .news-item {
+        width: 100%;
+        position: relative;
+        border: 1px solid #E5E5E5;
+        margin-bottom: 15px;
+        .category {
+          padding: 10px 15px;
+          margin: 11px 0;
+        }
+        p {
+          padding: 0 0 11px 8px;
+        }
+      }
+    }
+    .recent-news {
+      .news-item {
+        .sub-heading {
+        }
+        .posted {
+          background-color: #433D2B;
+        }
+        span {
+          display: block;
+        }
+      }
+    }
+    .hidden-news {
+      display: none;
+    }
+  }
+
+  // サービス
+  .feature {
+    .feature-wrapper {
+      .btn-feature {
+        width: 100%;
+      }
+    }
+  }
+
+  // サービス紹介
+  .services {
+    .service {
+      a {
+        width: 50%;
+      }
+      p {
+        margin-bottom: 45px;
+      }
+      &:nth-child(1) {
+        margin: 80px 0 40px 0;
+      }
+    }
+  }
+
+  // 会社紹介
+  .company {
+    flex-direction: column-reverse;
+    .company-address {
+      width: 100%;
+      table {
+        width: 98%;
+        tr, td {
+          display: block;
+          border: none;
+        }
+        tr {
+          padding: 12px 15px;
+          border-bottom: 1px solid #E5E5E5;
+          &:nth-child(1) {
+            padding-top: 30px;
+          }
+          td:nth-child(1) {
+            font-weight: bold;
+            padding: 0 0 0 0;
+          }
+          td:nth-child(2) {
+            padding: 10px 0 0 0;
+          }
+        }
+
+        tr:nth-child(1) {
+          border-top: 2px solid #47B39D;
+          td:nth-child(1) {
+            border-top: none;
+          }
+        }
+      }
+    }
+  }
+  // お問い合わせ
+  .inquiry {
+    .inquiry-inner {
+      max-width: 90%;
+    }
+  }
+
+  // フッター
+  footer {
+    .footer-logo {
+      font-size: 1.4rem;
+      padding-bottom: 65px;
+      border-bottom: 1px solid #3B4652;
+    }
+    .footer-nav-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    small {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,597 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.inner {
+  padding: 0 7%;
+  text-align: center;
+}
+
+header {
+  height: 90px;
+  background-color: #47B39D;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-logo {
+  font-size: 1.5rem;
+}
+
+header .header-logo:hover {
+  text-decoration: underline;
+}
+
+header .header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-nav ul a {
+  display: block;
+  line-height: 90px;
+  padding: 0 15px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+header .header-nav ul a:hover {
+  background-color: #57BCA8;
+}
+
+header .ham-menu {
+  display: none;
+  width: 110px;
+  height: 90px;
+  background-color: #3B4652;
+}
+
+header .ham-menu a {
+  display: block;
+  line-height: 90px;
+}
+
+header .ham-menu a i {
+  font-size: 2.1rem;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  background-color: #3B4652;
+  color: white;
+  width: 100%;
+  height: 155px;
+  padding: 15px 0;
+}
+
+.mobile-menu p {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mobile-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  padding: 3%;
+}
+
+.mobile-menu ul li {
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.mobile-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.mobile-menu ul li i {
+  margin-right: 5px;
+}
+
+.top {
+  height: 700px;
+  background-color: #41B19C;
+  color: white;
+  padding: 250px 0;
+}
+
+.top .top-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.top .top-message {
+  margin: 0 auto;
+  width: 52%;
+  line-height: 1.6;
+}
+
+.news {
+  background-color: #FBFBFB;
+  padding: 55px 0 35px 0;
+}
+
+.news .article {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.news .news-heading h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 30px 0;
+}
+
+.news .news-heading h3 i {
+  margin-right: 5px;
+}
+
+.news .news-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0 65px 0;
+}
+
+.news .news-wrapper .news-item {
+  width: 18%;
+  position: relative;
+}
+
+.news .news-wrapper .news-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.news .news-wrapper .news-item .sub-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  opacity: 0.7;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.news .news-wrapper .news-item .sub-heading span {
+  font-size: 1.0rem;
+}
+
+.news .news-wrapper .news-item .rank1 {
+  background-color: #E2C979;
+}
+
+.news .news-wrapper .news-item .rank2 {
+  background-color: #899099;
+}
+
+.news .news-wrapper .news-item .rank3 {
+  background-color: #855036;
+}
+
+.news .news-wrapper .news-item .rank4 {
+  background-color: #5E452B;
+}
+
+.news .news-wrapper .news-item .rank5 {
+  background-color: #433D2B;
+}
+
+.news .news-wrapper .news-item .category {
+  background-color: #47B39D;
+  color: white;
+  width: 120px;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.news .recent-news {
+  margin-top: 40px;
+}
+
+.news .recent-news .news-item .sub-heading {
+  text-align: center;
+  padding: 8px 3px;
+}
+
+.news .recent-news .news-item .posted {
+  background-color: #433D2B;
+}
+
+.news .recent-news .news-item span {
+  display: block;
+}
+
+.section-heading {
+  background-color: #3B4652;
+  height: 150px;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-heading i {
+  font-size: 1.7rem;
+}
+
+.section-heading h2 {
+  font-size: 1.8rem;
+  margin: 15px 0 10px 0;
+}
+
+.section-heading .triangle {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  left: 46.5%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #3B4652;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+}
+
+.feature .feature-wrapper {
+  width: 60%;
+  padding: 0 7%;
+}
+
+.feature .feature-wrapper .feature-heading .feature-num {
+  width: 32px;
+  height: 70px;
+  background-color: #47B39D;
+  color: white;
+  text-align: center;
+  padding: 40px 0 10px 0;
+}
+
+.feature .feature-wrapper .feature-heading h3 {
+  font-size: 2.3rem;
+  color: #47B39D;
+  margin: 35px 0 9px 0;
+}
+
+.feature .feature-wrapper .feature-heading .title-en {
+  color: #47B39D;
+}
+
+.feature .feature-wrapper .service-img {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.feature .feature-wrapper .img1 {
+  background: url(../images/macbook-at-the-coffee-shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature .feature-wrapper .img2 {
+  background: url(../images/two-coffee-at-the-shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature .feature-wrapper .img3 {
+  background: url(../images/imac-glasses-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature .feature-wrapper .img4 {
+  background: url(../images/macbook-holding.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature .feature-wrapper .feature-text {
+  margin: 45px 0;
+  line-height: 1.6;
+}
+
+.feature .feature-wrapper .btn-feature {
+  width: 30%;
+  display: block;
+  border-radius: 5px;
+  background-color: #FE6D05;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 70px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.feature .feature-wrapper .btn-feature:hover {
+  opacity: 0.8;
+}
+
+.fetaure-rv {
+  background-color: #FAFAFA;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fetaure-rv .service-img {
+  top: 0;
+  left: 0%;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.services .service {
+  width: 50%;
+  padding: 100px 0;
+}
+
+.services .service h3 {
+  font-size: 2.5rem;
+  color: #47B39D;
+  margin-bottom: 15px;
+}
+
+.services .service p {
+  color: #47B39D;
+  margin-bottom: 30px;
+}
+
+.services .service a {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+  border-radius: 5px;
+  width: 40%;
+  color: white;
+  background-color: #47B39D;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.services .service a:hover {
+  opacity: 0.8;
+}
+
+.services .service:nth-child(1) {
+  border-right: 1px solid #E5E5E5;
+}
+
+.company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company .company-address {
+  width: 60%;
+  padding: 90px 0 0 0;
+}
+
+.company .company-address table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.company .company-address table tr {
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.company .company-address table tr td {
+  padding: 25px 0 25px 30px;
+}
+
+.company .company-address table tr:nth-child(1) td:nth-child(1) {
+  border-top: 2px solid #47B39D;
+}
+
+.company .company-address table tr td:nth-child(1) {
+  width: 120px;
+}
+
+.company .company-map {
+  width: 40%;
+}
+
+.inquiry {
+  background-color: #47B39D;
+  color: white;
+  padding: 85px 0 100px 0;
+  border-bottom: 10px solid #3B4652;
+}
+
+.inquiry .inquiry-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inquiry .inquiry-inner label, .inquiry .inquiry-inner input, .inquiry .inquiry-inner a, .inquiry .inquiry-inner textarea {
+  display: block;
+}
+
+.inquiry .inquiry-inner label {
+  margin-bottom: 3px;
+}
+
+.inquiry .inquiry-inner input, .inquiry .inquiry-inner textarea {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2px;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  color: #3B4652;
+  text-align: left;
+}
+
+.inquiry .inquiry-inner textarea {
+  height: 260px;
+}
+
+.inquiry .inquiry-inner .btn-send {
+  margin: 0 auto;
+  background-color: #131E2A;
+  width: 180px;
+  height: 45px;
+  border-radius: 2px;
+  line-height: 45px;
+}
+
+footer {
+  background-color: #021831;
+  color: white;
+}
+
+footer .footer-inner {
+  max-width: 1240px;
+  padding: 80px 0 50px 0;
+  margin: 0 auto;
+}
+
+footer .footer-logo {
+  font-size: 1.4rem;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #3B4652;
+}
+
+footer .footer-nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px 0 0 15px;
+}
+
+footer .footer-nav-wrapper ul {
+  font-size: 0.9rem;
+}
+
+footer .footer-nav-wrapper ul li {
+  margin-bottom: 20px;
+}
+
+footer .footer-nav-wrapper ul li i {
+  margin-right: 10px;
+}
+
+footer .footer-nav-wrapper ul li a {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+footer .footer-nav-wrapper ul li a:hover {
+  opacity: 0.8;
+}
+
+footer .footer-nav-wrapper .nav-content {
+  width: 20%;
+}
+
+footer .footer-nav-wrapper .nav-social {
+  width: 20%;
+  margin-right: 140px;
+}
+
+footer .footer-nav-wrapper .facebook {
+  width: 40%;
+  height: 200px;
+}
+
+footer .footer-nav-wrapper .facebook div {
+  max-width: 100%;
+}
+
+footer small {
+  display: block;
+  background-color: #020A18;
+  text-align: center;
+  height: 80px;
+  padding: 20px 0;
+  line-height: 40px;
+}
+
+.pagetop {
+  background-color: #334642;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  display: none;
+}
+
+.pagetop .scroll-link {
+  display: block;
+  color: white;
+  font-size: 35px;
+  line-height: 50px;
+}
+/*# sourceMappingURL=main.css.map */
